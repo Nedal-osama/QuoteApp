@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(182, 13, 13, 0.6)),url();
+}
+div h2{
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: xx-large;
+   
+}
+.p1{
+    padding-top: 40px;
+}
+button{
+    background-color: brown;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.hiddenParagraph {
+    display: none;
+}
